@@ -3,7 +3,7 @@ package isfet_test
 import (
 	"time"
 
-	"github.com/OWNER/isfet"
+	"github.com/n-yarvex/isfet"
 )
 
 // 发送循环的最小示意：先准入，再按 pacing 间隔写出，最后登记在途字节。
