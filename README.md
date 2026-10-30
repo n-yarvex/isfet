@@ -1,7 +1,5 @@
 # ISFET
 
-[![CI](https://github.com/OWNER/isfet/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/isfet/actions/workflows/ci.yml)
-
 ISFET 是一个用 Go 写的发送端拥塞控制器，面向基于 UDP 的可靠传输。
 
 排队延迟、丢包和 ECN 先折算成同一个毫秒量纲的信号，窗口和速率两个回路都只看这个信号。
