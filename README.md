@@ -20,7 +20,7 @@ ISFET 是一个用 Go 写的发送端拥塞控制器，面向基于 UDP 的可�
 ## 安装
 
 ```sh
-go get github.com/OWNER/isfet
+go get github.com/n-yarvex/isfet
 ```
 
 需要 Go 1.21 或更新版本。把 `OWNER` 换成你自己的 GitHub 用户名或组织名（`go.mod` 和代码里的导入路径也要一起改）。
